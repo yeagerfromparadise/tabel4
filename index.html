@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Table #4</title>
+</head>
+<body>
+    <h2>MARCAJE DE CONSTRUIRE A LISTELOR</h2>
+
+    <table>
+        <tr style="background-color: #fce2d3;">
+            <th style="width: 16%;" > INSTRUCTIUNE </th>
+            <th> ATRIBUTE </th>
+            <th>DESCRIERE</th>
+        </tr> 
+        <tr style="background-color: #e0e9f8;">
+        <th colspan="3"><i>Liste de definitii</i></th>
+        </tr> 
+
+        <tr>
+            <td style="background-color: #e0e9f8;" class="INSTRUCTIUNE"> &lt;dl&gt; &lt;/dl&gt; </td> 
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;"><span style="color: #a267d0;">Inceputul - sfarsitul listei de definitii</span></td>
+        </tr>
+
+        <tr>
+        <td style="background-color: #e0e9f8;" class="INSTRUCTIUNE">&lt;dt&gt;</td>
+        <td style="text-align: center;">-</td>
+        <td style="text-align: center;"><span style="color: #a267d0;">Termen de definitie</span></td>
+        </tr>
+
+        <tr>
+            <td style="background-color: #e0e9f8;" class="INSTRUCTIUNE">&lt;dd&gt;</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;"><span style="color: #a267d0;">Descrierea termenului de definitie</span></td>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="text-align: center;" class="i1"><i style="color: #7322b0;">Liste neordonate (marcate)</i></th>
+        </tr>
+        <tr>
+        <td rowspan="2" class="INSTRUCTIUNE" style="background-color: #e0e9f8;">&lt;ul atribut&gt;</td>
+        <td style="text-align: center;">-</td>
+        <td style="text-align: right;" class="cs2"><span style="color: #a267d0;">Inceputul - sfarsitul listei marcate</span></td>
+         </tr>
+        <tr>
+            <td style="padding-left: 5px;"><span style="color: red;" >Type=</span></td>
+            <td style="text-align: right;" class="cs2"><span style="color: #a267d0;">Forma marcajului: circle, square, disc (implicit)</span></td>
+        </tr>
+        <tr>
+        <td class="INSTRUCTIUNE" style="background-color: #e0e9f8;">&lt;li&gt;</td>
+        <td style="text-align: center;">-</td>
+        <td style="text-align: right;" class="cs2"><span style="color: #a267d0;">Element de lista</span></td>
+        </tr>
+        <tr>
+            <th colspan="3" style="text-align: center;" class="i1"><i style="color: #7322b0;">Liste ordonate (numerotate)</i></th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="vertical-align: top;" class="INSTRUCTIUNE" >&lt;ol atribut&gt; &lt;ol&gt;</td>
+            <td style="text-align: center;"><span style="color: red;">-</span></td>
+            <td style="text-align: left;" class="roblox"><span style="color: #a267d0;">Inceputul - sfarsitul listei numerotate</span></td>
+        </tr>
+        <td style="padding-left: 5px;"><span style="color: red;">Type=</span></td>
+        <td style="text-align: left;" class="roblox"><span style="color: #a267d0;">Tipul numerotarii: A, a, I, i, l (implicit)</span></td>
+        <tr>
+            <td style="padding-left: 5px;"><span style="color: red;">Start=</span></td>
+            <td style="text-align: left;" class="roblox"><span style="color: #a267d0;">Cu ce valoare incepe numerotarea (implicit)</span></td>
+        </tr>
+
+        <tr>
+            <td class="INSTRUCTIUNE" style="background-color: #e0e9f8;">&lt;li&gt;</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: left;" class="roblox"><span style="color: #a267d0;">Element al listei</span></td>
+        </tr>
+    </table>
+</body>
+</html>
